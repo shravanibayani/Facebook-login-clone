@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="w-screen h-screen flex flex-col items-center lg:bg-gray-100">
+    <!-- icon -->
+    <div class="w-11/12 max-w-sm flex flex-col items-center lg:flex-row lg:w-full lg:max-w-5xl lg:justify-between lg:my-auto">
+        <div class="lg:w-1/2 flex flex-col items-start">
+            <div class="w-28 h-auto mt-20 cursor-pointer lg:w-10/12 lg:mt-0"><img src="Facebook icon.svg"></div>
+            <span class=" pl-10 hidden lg:block text-3xl font-normal">Facebook helps you connect and share with the people in your life.</span>
+        </div>
+        <div class="w-11/12 mt-10 space-y-4 text-sm lg:text-base flex flex-col items-center max-w-sm lg:bg-white lg:py-10 lg:px-6 lg:rounded-lg lg:w-full lg:shadow-2xl relative">
+            <!-- inputs -->
+            <input class="w-full h-10 border-2 rounded-md p-3 lg:h-12 outline-blue-700" type="text" placeholder="Mobile number or email address">
+            <input class="w-full h-10 border-2 rounded-md p-3 lg:h-12 outline-blue-700" type="password" placeholder="Password">
+            <!-- log-in -->
+            <button class="w-full h-10 bg-blue-600 text-lg text-white font-medium rounded-md lg:h-12 hover:bg-blue-700">Log in</button>
+
+            <span class="mt-4 text-blue-600 text-sm cursor-pointer">Forgotten password?</span>
+            <!-- create new acc -->
+            <span class="text-xs mt-4">or</span>
+            <button class="mt-4 w-11/12 h-9 text-base rounded-md font-medium bg-lime-450 hover:bg-green-600 text-white lg:h-11">Create new account</button>
+            <span class="absolute -bottom-12 text-sm"><a class="font-semibold hover:underline" href="#">Create a Page</a> for a celebrity, brand or business.</span>
+        </div>
+    </div>
+    <div class="flex justify-between w-full pb-5 mt-20 text-gray-600 max-w-xs">
+        <span class="cursor-pointer hover:text-black">English</span>
+        <span class="cursor-pointer hover:text-black">मराठी</span>
+    </div>
+    <footer class="lg:mb-3">
+        <span class="text-xs text-gray-600 lg:text-base">Meta &copy; 2024 </span>
+    </footer>
+</body>
+
+</html>
